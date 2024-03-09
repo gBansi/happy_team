@@ -15,7 +15,7 @@ const Navbar = () => {
     // Array containing navigation items
     const navItems = [
         { id: 1, text: 'HOME', path: '/' },
-        { id: 2, text: 'ABOUT US', path: '/upcoming_activites' },
+        { id: 2, text: 'ABOUT US', path: '/about' },
         { id: 3, text: 'SERVICES', path: '/team' },
         { id: 4, text: 'CONTACT US', path: '/contact' },
         // { id: 5, text: '' },
@@ -66,9 +66,9 @@ const Navbar = () => {
                     </li>
                 ))}
                 <button className='md:hidden flex items-center justify-center h-fit w-fit p-2 bg-[#26173F] text-white rounded-full  space-x-2'>
-                < FaPhoneVolume />
-                <span>Call Us</span>
-            </button>
+                    < FaPhoneVolume />
+                    <span>Call Us</span>
+                </button>
             </ul>
         </div>
     )

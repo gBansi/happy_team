@@ -3,6 +3,10 @@ import slide1 from '../assets/img/slide1.jpg'
 import slide2 from '../assets/img/slide2.jpg'
 import slide3 from '../assets/img/slide3.jpg'
 import What_can_do from '../components/What_can_do';
+import About from '../components/About';
+import Logo from '../components/Logo';
+import Past_event from '../components/Past_event';
+import Services from '../components/Services';
 
 const images = [
     { imgSrc: slide1, alt: 'First Image Description', title: 'First Image Title', description: 'This is the first image description.' },
@@ -42,9 +46,9 @@ const Home = () => {
     }, [currentImageIndex]);
 
     return (
-        <div className='xl:px-16 px-3'>
+        <div className=''>
             <div
-                className=" flex items-center rounded-xl h-[500px] xl:h-[700px] overflow-hidden mx-auto my-4 text-white py-11"
+                className=" flex items-center rounded-3xl h-[500px] xl:h-[700px] overflow-hidden mx-auto my-4 text-white py-11"
                 style={{
                     backgroundImage: `url(${images[currentImageIndex].imgSrc})`,
                     backgroundSize: 'cover',
@@ -74,9 +78,13 @@ const Home = () => {
                         </div>
                     ))}
                 </div>
-                
+
             </div>
-            <What_can_do/>
+            <What_can_do />
+            <About />
+            <Logo />
+            <Past_event />
+            <Services />
         </div>
     )
 }
