@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 const Layout = () => {
     return (
-        <div>
+        <div className='xl:px-[200px] px-3'>
             <Navbar />
             <main>
                 <Routers />
