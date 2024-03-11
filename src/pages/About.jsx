@@ -5,7 +5,8 @@ import Logo from "../components/Logo";
 import AboutComp from "../components/AboutComp";
 
 const title = "About Us";
-const description = "Creating Extraordinary Event Is Our Specialty. Innovative Designs, Entertainment And Customized Theme Decor, Glamorous, Event Plan Delivers Resonance To The WOW Factor While Saving Our Clients Valuable Time And Money";
+const description =
+  "Creating Extraordinary Event Is Our Specialty. Innovative Designs, Entertainment And Customized Theme Decor, Glamorous, Event Plan Delivers Resonance To The WOW Factor While Saving Our Clients Valuable Time And Money";
 
 const About = () => {
   return (
