@@ -39,7 +39,7 @@ const AboutComp = () => {
           <div className="space-y-2">
             <div class="flex justify-between mb-1">
               <span class="text-base font-medium text-black ">Sport Event</span>
-              <span class="text-sm font-medium text-black ">75%</span>
+              <span class="text-sm font-medium text-black ">26 +</span>
             </div>
             <div class="w-full rounded-full h-2 bg-black">
               <div
@@ -53,7 +53,7 @@ const AboutComp = () => {
               <span class="text-base font-medium !text-black ">
                 Corporate Event
               </span>
-              <span class="text-sm font-medium !text-black ">50%</span>
+              <span class="text-sm font-medium !text-black ">20 +</span>
             </div>
             <div class="w-full rounded-full h-2 bg-black">
               <div
@@ -67,7 +67,7 @@ const AboutComp = () => {
               <span class="text-base font-medium text-black ">
                 Up Coming Event
               </span>
-              <span class="text-sm font-medium text-black ">25%</span>
+              <span class="text-sm font-medium text-black ">5 +</span>
             </div>
             <div class="w-full rounded-full h-2 bg-black">
               <div

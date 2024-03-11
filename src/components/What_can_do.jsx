@@ -1,5 +1,8 @@
 import React from "react";
+import VKPhoto from "../assets/img/VKPhotos03.webp";
 import slide1 from "../assets/img/slide1.jpg";
+
+
 import {
   FaUserTie,
   FaMedal,
@@ -54,7 +57,7 @@ const What_can_do = () => {
         {/* Image container to control the space around the image */}
         <div className="flex flex-col justify-start items-start xl:w-[40%]">
           <img
-            src={slide1}
+            src={VKPhoto}
             alt="Description"
             className="rounded-full sm:h-[400px] sm:w-[400px] w-[300px] h-[300px]"
           />
@@ -83,14 +86,14 @@ const What_can_do = () => {
             <div className="flex items-center gap-10">
               <div className="flex items-center gap-5">
                 <img
-                  src={slide1}
+                  src={VKPhoto}
                   className="h-[100px] w-[100px] rounded-full overflow-hidden mx-auto"
                 ></img>
                 <div className="mx-auto">
                   <h1 className="text-[#26173F] text-lg xl:text-2xl font-bold text-start">
-                    vishnu kamaliya
+                    Vishnu Kamaliya
                   </h1>
-                  <p className="text-xl">ceo happy tame</p>
+                  <p className="text-xl">CEO of happy taem</p>
                 </div>
               </div>
               <Link to="https://vishnukamaliya.com">

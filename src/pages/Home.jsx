@@ -10,13 +10,13 @@ import AboutComp from "../components/AboutComp";
 
 const images = [
   {
-    imgSrc: slide1,
+    imgSrc: slide2,
     alt: "First Image Description",
     title: "First Image Title",
     description: "This is the first image description.",
   },
   {
-    imgSrc: slide2,
+    imgSrc: slide1,
     alt: "Second Image Description",
     title: "Second Image Title",
     description: "This is the second image description.",
