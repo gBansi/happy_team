@@ -21,9 +21,9 @@ const Navbar = () => {
         // { id: 5, text: '' },
     ];
     return (
-        <div className='flex justify-between items-center h-18 bg-slate-50 shadow-lg max-w-full mx-auto px-4 text-red'>
+        <div className='flex justify-between items-center h-18 bg-white  max-w-full mx-auto px-4 text-red'>
             {/* Logo */}
-            <img className='h-28 w-28' src={logo} alt="Logo" />
+            <img className='h-30 w-28' src={logo} alt="Logo" />
 
             {/* Desktop Navigation */}
             <ul className='hidden md:flex'>

@@ -1,17 +1,16 @@
 import React from "react";
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/white.png";
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="">
-      <footer className="items-center rounded-xl  h-fit overflow-hidden mx-auto my-4 text-white py-11 bg-[#72697F]">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 px-6 text-center md:text-left">
+      <footer className="items-center rounded-xl  h-fit overflow-hidden mx-auto my-4 text-white py-11 bg-[#332645]">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 px-6 text-center md:text-left ">
           {/* Brand Logo and Description */}
           <div>
-            <img className="h-28 w-28" src={logo} alt="Logo" />
+            <img className="h-16 w-26 mb-4" src={logo} alt="Logo" />
 
-            <h2 className="font-bold text-xl mb-4">Happy Team</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus.

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import slide1 from "../assets/img/slide1.jpg";
-import slide2 from "../assets/img/slide2.jpg";
-import slide3 from "../assets/img/slide3.jpg";
+import slide1 from "../assets/img/a-1.jpg";
+import slide2 from "../assets/img/a-2.jpg";
+import slide3 from "../assets/img/a-3.jpg";
 
 const images = [
   { imgSrc: slide1, alt: "Description of slide 8" },
@@ -65,25 +65,39 @@ const AboutComp = () => {
           <div className="space-y-2">
             <div class="flex justify-between mb-1">
               <span class="text-base font-medium text-black ">
-                Up Coming Event
+                Up Coming big sports Event
               </span>
               <span class="text-sm font-medium text-black ">5 +</span>
             </div>
             <div class="w-full rounded-full h-2 bg-black">
               <div
                 class="bg-blue-600 h-2 rounded-full"
-                style={{ width: "25%" }}
+                style={{ width: "5%" }}
+              ></div>
+            </div>
+          </div>
+          <div className="space-y-2">
+            <div class="flex justify-between mb-1">
+              <span class="text-base font-medium text-black ">
+                Social Events
+              </span>
+              <span class="text-sm font-medium text-black ">30 +</span>
+            </div>
+            <div class="w-full rounded-full h-2 bg-black">
+              <div
+                class="bg-blue-600 h-2 rounded-full"
+                style={{ width: "30%" }}
               ></div>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex w-full xl:w-[50%] items-center justify-end xl:mt-0 mt-4">
-        <div className="flex h-[600px] w-[500px] rounded-lg items-center justify-center">
+      <div className="flex w-full xl:w-[50%] items-center justify-center xl:justify-end xl:mt-0 mt-4">
+        <div className="flex xl:h-[600px] w-[500px] rounded-lg items-center justify-center">
           <img
             src={images[currentImageIndex].imgSrc}
             alt={images[currentImageIndex].alt}
-            className="rounded-lg h-[600px]"
+            className="rounded-lg h-[400px] xl:h-[600px]"
           />
         </div>
       </div>

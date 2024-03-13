@@ -17,25 +17,26 @@ const features = [
     Icon: FaUserTie,
     title: "professional coach",
     description:
-      "we bring the right people together to challenge established thinking.",
+      "Empowering you to achieve your goals with expert coaching and personalized guidance.",
   },
   {
     Icon: FaMedal,
     title: "experienced",
     description:
-      "we bring the right people together to challenge established thinking.",
+      "harnessing expertise to foster growth and drive success."
+
   },
   {
     Icon: FaDollarSign,
     title: "affordable price",
     description:
-      "we bring the right people together to challenge established thinking.",
+      "Quality service that fits your budget.",
   },
   {
     Icon: FaCalendarAlt,
     title: "flexible scheduling",
     description:
-      "we bring the right people together to challenge established thinking.",
+      "Adapting to your timetable for maximum convenience.",
   },
 ];
 
@@ -55,11 +56,11 @@ const What_can_do = () => {
       </div>
       <div className="flex flex-col xl:flex-row items-start justify-center gap-2 py-10">
         {/* Image container to control the space around the image */}
-        <div className="flex flex-col justify-start items-start xl:w-[40%]">
+        <div className="flex flex-col xl:justify-start justify-center items-center object-center xl:items-start xl:w-[40%]">
           <img
             src={VKPhoto}
             alt="Description"
-            className="rounded-full sm:h-[400px] sm:w-[400px] w-[300px] h-[300px]"
+            className="rounded-full sm:h-[400px] sm:w-[400px] w-[300px] h-[300px] object-cover"
           />
         </div>
 
@@ -83,11 +84,11 @@ const What_can_do = () => {
               ))}
             </div>
             <hr className="my-4 h-[1px] bg-[#26173F] border-none" />
-            <div className="flex items-center gap-10">
-              <div className="flex items-center gap-5">
+            <div className="flex xl:flex-row flex-col justify-center items-center gap-10">
+              <div className="flex items-center gap-5 justify-center">
                 <img
                   src={VKPhoto}
-                  className="h-[100px] w-[100px] rounded-full overflow-hidden mx-auto"
+                  className="h-[100px] w-[100px] rounded-full overflow-hidden mx-auto object-cover"
                 ></img>
                 <div className="mx-auto">
                   <h1 className="text-[#26173F] text-lg xl:text-2xl font-bold text-start">
