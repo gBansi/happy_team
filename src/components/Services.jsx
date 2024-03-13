@@ -19,42 +19,42 @@ const cardData = [
     imgSrc: slide2,
     title: "Sports events",
     description:
-      "A vertical challenge that tests strength, endurance, and strategy, simulating the thrill of rock climbing in a controlled environment.",
+      "Happy Team brings communities together through engaging sports events, fostering teamwork and healthy competition across all age groups.",
   },
   {
     id: 2,
     imgSrc: slide4,
     title: "Corporate Event",
     description:
-      "An exhilarating aerial ride that propels adventurers across landscapes, offering breathtaking views and a rush of adrenaline.",
+      "We specialize in crafting memorable corporate events that enhance team cohesion and celebrate company milestones, delivering experiences that resonate with your corporate identity.",
   },
   {
     id: 3,
     imgSrc: slide3,
     title: "Government Projects",
     description:
-      "Partnering with public entities to deliver impactful and sustainable solutions.",
+      "Happy Team collaborates with government entities to execute impactful projects, focusing on community development and public engagement initiatives.",
   },
   {
     id: 4,
     imgSrc: slide1,
     title: "Social Activities",
     description:
-      " Engaging communities with meaningful initiatives for social enrichment and connection.",
+      "Our expertise in organizing social activities aims at strengthening community bonds, promoting social responsibility, and encouraging active participation in meaningful causes.",
   },
 ];
 
 const Services = () => {
   return (
-    <div className="my-[70px]">
-      <h1 className="text-[#26173F] text-lg xl:text-5xl font-bold text-center">
+    <div className="md:my-[70px]">
+      <h1 className="text-[#26173F] text-2xl md:text-3xl xl:text-5xl font-bold text-center">
         All{" "}
-        <span className="text-[#27BDEE] text-lg xl:text-5xl font-bold">
+        <span className="text-[#27BDEE] text-2xl md:text-3xl xl:text-5xl font-bold">
           Services
         </span>
       </h1>
-      <p className="text-gray-700 mt-4 xl:mt-10 text-xl text-center mb-10">
-        happy taem is a fast-growing event company located in ahmadabad -
+      <p className="text-gray-700 mt-4 xl:mt-10 text-md text-justify mb-10">
+        Happy Team is a fast-growing event company located in ahmadabad -
         gujarat. we specialize in domestic events. till date, we have
         successfully organized events in many sectors, be it sports, wedding,
         corporate and have provided management services.
@@ -64,7 +64,11 @@ const Services = () => {
           <div key={index} className="flex flex-col">
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-white-800 dark:border-gray-700 mx-auto flex flex-col justify-between h-full">
               <a href="#">
-                <img className="rounded-t-lg" src={item.imgSrc} alt={item.alt} />
+                <img
+                  className="rounded-t-lg"
+                  src={item.imgSrc}
+                  alt={item.alt}
+                />
               </a>
               <div className="p-5 flex flex-col justify-between flex-grow">
                 <a href="#">
@@ -86,7 +90,6 @@ const Services = () => {
           </div>
         ))}
       </div>
-
     </div>
   );
 };

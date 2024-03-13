@@ -7,7 +7,7 @@ const Hero = ({ title, description }) => {
         <h1 className="text-white text-lg xl:text-5xl font-bold text-center md:my-10">
           <span className="text-[#27BDEE]">{title.toUpperCase()}</span>
         </h1>
-        <p className="text-xl xl:w-[60%] text-center mx-auto md:mb-10">
+        <p className="md:text-xl xl:w-[60%] text-justify mx-auto md:mb-10 text-white/80">
           {description}
         </p>
       </div>
